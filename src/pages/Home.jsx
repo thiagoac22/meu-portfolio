@@ -48,19 +48,7 @@ export default function Home() {
           </p>
           <a href="/projetos" className="home-button">Ver Projetos</a>
         </div>
-      </section>
-
-      {/* Habilidades */}
-      <section className="home-skills">
-        <h2>Minhas Habilidades</h2>
-        <div className="skills-card">
-          <div className="skill">React / React Native</div>
-          <div className="skill">JavaScript / TypeScript</div>
-          <div className="skill">HTML / CSS / Tailwind</div>
-          <div className="skill">SQL / Power BI / Excel / PostgreSQL</div>
-          <div className="skill">Git / GitHub</div>
-        </div>
-      </section>
+      </section>    
 
       {/* Projetos em destaque */}
       <section className="home-projects">
