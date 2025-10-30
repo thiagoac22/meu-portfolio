@@ -19,17 +19,33 @@ export default function Sobre() {
 
       {/* Formação e experiência */}
       <div className="sobre-info">
-        <h2>Formação e Experiência</h2>
+
+        <h2>Formação Acâdemica</h2>
+
         <ul>
-          <li>Analista de Dados – Experiência com Power BI, SQL e Excel avançado.</li>
-          <li>Desenvolvedor Web – React, React Native, JavaScript, HTML, CSS, Tailwind.</li>
-          <li>Gestão de projetos e versionamento de código com Git/GitHub.</li>
+          <li>Formado em Análise e Desenvolvimento de Sistemas</li>
+          <li>Instituição: Universidade Braz Cubas</li>
+          <li>Ano de Conclusão: 2025</li>
+          <li>Cidade: Mogi das Cruzes</li>
+          <li>Estado: São Paulo</li>
         </ul>
+
       </div>
 
-      {/* Competências adicionais */}
+      {/* Soft Skills*/}
       <div className="sobre-skills">
-        <h2>Competências Adicionais</h2>
+        <h2>Soft Skills</h2>
+        <div className="skills-list">
+          <span>Trabalho em equipe</span>
+          <span>Comunicação</span>
+          <span>Resolução de problemas</span>
+          <span>Aprendizado contínuo</span>
+        </div>
+      </div>
+
+      {/* Hard Skills*/}
+      <div className="sobre-skills">
+        <h2>Hard Skills</h2>
         <div className="skills-list">
           <span>Trabalho em equipe</span>
           <span>Comunicação</span>

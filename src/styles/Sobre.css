@@ -51,11 +51,11 @@
 
 .sobre-text p {
   font-size: 1.1rem;
-  color: #cbd5e1;
+  color: #cbd5e1; 
   line-height: 1.7;
 }
 
-/* ======== FORMAÇÃO E EXPERIÊNCIA ======== */
+/* ======== FORMAÇÃO Academica ======== */
 .sobre-info {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -116,6 +116,12 @@
   backdrop-filter: blur(8px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.sobre-skills:hover {
+  border-color: #38bdf8;
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.3);
 }
 
 .sobre-skills h2 {
