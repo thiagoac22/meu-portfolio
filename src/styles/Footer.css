@@ -1,0 +1,33 @@
+
+.footer {
+  position: static;       /* fixa o footer na tela */
+  bottom: 0;             /* na parte inferior */
+  left: 0;               /* começa da esquerda */
+  width: 100%;           /* ocupa toda a largura */
+  background-color: #1a202c;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;   /* 14px */
+  z-index: 1000;         /* fica acima de outros elementos */
+}
+
+/* Pequeno efeito de transição caso queira hover nos links futuros */
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #63b3ed; /* azul claro */
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .footer {
+    padding: 12px 10px;
+    font-size: 0.8rem; /* 13px */
+  }
+}

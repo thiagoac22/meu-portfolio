@@ -1,0 +1,28 @@
+/* Garante que o app ocupe toda a altura da tela */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estrutura principal do App */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* ocupa a altura total da tela */
+}
+
+/* O conteúdo cresce e empurra o rodapé para o fim */
+.app-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f7fafc; /* mesma cor do seu fundo atual */
+}
+
+/* Rodapé */
+footer {
+  background-color: #1a202c;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
