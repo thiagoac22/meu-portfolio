@@ -47,10 +47,15 @@ export default function Sobre() {
       <div className="sobre-skills">
         <h2>Hard Skills</h2>
         <div className="skills-list">
-          <span>Trabalho em equipe</span>
-          <span>Comunicação</span>
-          <span>Resolução de problemas</span>
-          <span>Aprendizado contínuo</span>
+          <span>HTML, CSS, JavaScript</span>
+          <span>React, React Native, Vite</span>
+          <span>Node.js, Express</span>
+          <span>Python</span>
+          <span>Git e GitHub</span>
+          <span>SQL, PostgreSQL</span>
+          <span>APIs RESTful</span>
+          <span>Desenvolvimento Mobile</span>
+          <span>Electron (para apps desktop)</span>
         </div>
       </div>
 
