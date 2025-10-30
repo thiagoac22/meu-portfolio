@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import '../styles/Home.css';
 import avatar from '../assets/foto-home.jpg';
 
@@ -33,7 +34,7 @@ export default function Home() {
   function closeModal() {
     setIsModalOpen(false);
     setVideoUrl(null);
-  }  
+  }
 
   return (
     <section className="home-section">
@@ -46,9 +47,9 @@ export default function Home() {
           <p className="home-description">
             Sou desenvolvedor web e analista de dados. Aqui você pode conhecer meus projetos e meu trabalho.
           </p>
-          <a href="/projetos" className="home-button">Ver Projetos</a>
+          <Link to="/projetos" className="home-button">Ver Projetos</Link>
         </div>
-      </section>    
+      </section>
 
       {/* Projetos em destaque */}
       <section className="home-projects">
